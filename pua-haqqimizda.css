@@ -1,0 +1,29 @@
+.information-about{
+  color: black;
+  font-size: 25px;
+  width: flex;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Logo-about{
+  width: 400px;
+}
+
+.about-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media(max-width:1400px) {
+  .information-about{
+    width: 840px;
+  }
+}
